@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct ShoppingModel: Identifiable {
+    
+    let id = UUID()
+    let title: String
+    let price: String
+    
+    
+}
